@@ -26,13 +26,12 @@ API Gateway com Microserviços e Kafka.
 ### Utilização
 
 * Os serviços deverão ser inicializados na seguinte ordem:
-
-** Apache Kafka (via docker)
-** api-gateway-registry-discovery (via spring)
-** api-gateway (via spring)
-** order-service (via spring)
-** stock-service (via spring)
-** email-service (via spring)
+  - Apache Kafka (via docker)
+  - api-gateway-registry-discovery (via spring)
+  - api-gateway (via spring)
+  - order-service (via spring)
+  - stock-service (via spring)
+  - email-service (via spring)
 
 
 ## Funcionalidades implementadas
